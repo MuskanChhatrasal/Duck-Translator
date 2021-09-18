@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #000;
+  --primary-dark: #fff;
+  --txt-color: #fffffe;
+}
+body {
+  font-family: sans-serif;
+  background-color: var(--primary-dark);
+  color: var(--txt-color);
+}
+#txt-output {
+  width: 90%;
+  height: 5rem;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  background-color: #ffffff;
+  color: var(--primary-dark);
+}
+.translate-now {
+  color: var(--primary-color);
+}
+
+#hero-heading {
+  text-align: center;
+  height: 100px;
+  padding-top: 2.5rem;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  background-color: var(--primary-color);
+}
+#txt-input {
+  width: 90%;
+  height: 100px;
+  margin: 2rem;
+  font-size: large;
+}
+#txt-output {
+  width: 90%;
+  height: 100px;
+  margin: 2rem;
+}
+#btn-translate {
+  background-color: var(--txt-color);
+  font-size: large;
+  padding: 15px;
+  border-radius: 5%;
+}
+#footer {
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+#footer p {
+  padding: 1rem;
+}
+#footer h2 {
+  text-align: center;
+  padding: 0.5rem;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.container1 {
+  width: 20%;
+  margin: 0 auto;
+}
