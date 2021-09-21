@@ -45,17 +45,27 @@ body {
   padding: 15px;
   border-radius: 5%;
 }
-#footer {
+.footer {
   background-color: var(--primary-color);
   padding: 1rem;
 }
-#footer p {
-  padding: 1rem;
-}
-#footer h2 {
+.footer p {
   text-align: center;
-  padding: 0.5rem;
 }
+.footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer ul li {
+  padding: 1.2rem 1rem;
+  list-style-type: none;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
 .container {
   max-width: 80%;
   margin: 0 auto;
